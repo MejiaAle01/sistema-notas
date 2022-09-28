@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.contenedor-form2 {
+    background: black;
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+}
+
+.contenedor-form2 label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contenedor-form2 input[type="text"],
+.contenedor-form2 input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+
+.contenedor-form2 input[type="text"]:focus,
+.contenedor-form2 input[type="password"]:focus {
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-form2 select {
+    display: block;
+    margin: 0 0 20px 0;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    padding: 10px 15px;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+
+.contenedor-form2 select:focus {
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-form2 button[type="submit"] {
+    background: rgba(0, 0, 0, 0);
+    color: #FFF;
+    width: 100%;
+    border: 2px solid transparent;
+    border-color: #006eff;
+    border-radius: 0.25rem;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form2 button[type="submit"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}
+
+
+.contenedor-form2 .formulario2 {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contenedor-form2 .formulario2 h2 {
+    position: relative;
+    font-size: 28px;
+    margin: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*Para Dispositivos Moviles*/
+@media (max-width: 330px) {
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: white;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .contenedor-form2 {
+        background: black;
+        max-width: 500px;
+        width: 100%;
+        margin: 48px auto;
+        border-radius: 5px;
+        color: #fff;
+        position: relative;
+    }
+
+    .contenedor-form2 label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-form2 input[type="text"],
+    .contenedor-form2 input[type="password"] {
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+        margin: 0 0 20px 0;
+        color: black;
+        border: none;
+        border-radius: 2px;
+        font-size: 14px;
+        transition: all .5s ease;
+    }
+
+    .contenedor-form2 input[type="text"]:focus,
+    .contenedor-form2 input[type="password"]:focus {
+        border-bottom: 4px solid #0075d9;
+    }
+
+    .contenedor-form2 select {
+        display: block;
+        margin: 0 0 20px 0;
+        width: 100%;
+        border: none;
+        border-radius: 2px;
+        color: black;
+        padding: 10px 15px;
+        font-size: 14px;
+        transition: all .5s ease;
+    }
+
+    .contenedor-form2 select:focus {
+        border-bottom: 4px solid #0075d9;
+    }
+
+    .contenedor-form2 input[type="submit"] {
+        background: rgba(0, 0, 0, 0);
+        color: #FFF;
+        width: 100%;
+        border: 2px solid transparent;
+        border-color: #006eff;
+        border-radius: 0.25rem;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: normal;
+        cursor: pointer;
+        transition: all .5s ease;
+    }
+
+    .contenedor-form2 input[type="submit"]:hover {
+        background: rgba(0, 117, 217, 0.7);
+    }
+
+    .contenedor-form2 .formulario2 {
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contenedor-form2 .formulario2 h2 {
+        position: relative;
+        font-size: 28px;
+        margin: 0.5rem;
+        text-align: center;
+    }
+}
