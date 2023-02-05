@@ -1,7 +1,4 @@
 <?php
-	error_reporting(E_ALL);
-	ini_set('display_errors', '1');
-
 	// Incluimos el archivo de conexion a la BD
 	include '../datos/conexion.php';
 
