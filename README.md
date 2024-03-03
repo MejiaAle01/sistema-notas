@@ -23,11 +23,7 @@ Sistema de notas basado en un proyecto de Bachillerato (Secundaria) en el que re
 ```
 - Inicia los servicios de XAMPP.
 
-- Crea la base de datos:
-
-```bash
-CREATE DATABASE bd_escuela;
-```
+- Para crear la base de datos, abre el archivo **BDEscuela.sql** y copia todo su contenido, en tu gestor de base de datos de tu preferencia, pega el contenido.
 
 ## Stack utilizado
 
