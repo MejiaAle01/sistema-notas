@@ -32,6 +32,6 @@ Sistema de notas basado en un proyecto de Bachillerato (Secundaria) en el que re
 **Back-End:** PHP 5.1, MySQL.
 
 
-## Lessons Learned
+## Lecciones aprendidas
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
